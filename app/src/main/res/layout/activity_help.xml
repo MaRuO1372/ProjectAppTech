@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/menu_bg"
+    tools:context=".HelpActivity">
+
+    <Button
+        android:id="@+id/buttonBackFromHelp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rounded_button"
+        android:onClick="back"
+        android:paddingTop="0dp"
+        android:text="@string/menu"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/helpHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/help_header"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/helpTitle1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/help_title1"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonBackFromHelp" />
+
+    <ImageView
+        android:id="@+id/ball2"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:src="@drawable/a1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/helpTitle1"
+        android:contentDescription="@string/ball" />
+
+    <ImageView
+        android:id="@+id/ball1"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/a1"
+        app:layout_constraintEnd_toStartOf="@+id/ball2"
+        app:layout_constraintTop_toTopOf="@+id/ball2"
+        android:contentDescription="@string/ball" />
+
+    <ImageView
+        android:id="@+id/ball3"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="48dp"
+        android:src="@drawable/a1"
+        app:layout_constraintStart_toEndOf="@+id/ball2"
+        app:layout_constraintTop_toTopOf="@+id/ball2"
+        android:contentDescription="@string/ball" />
+
+    <TextView
+        android:id="@+id/helpTitle2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/help_title2"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ball3" />
+
+    <TextView
+        android:id="@+id/text09"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/_0_9_balls"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/ball2"
+        app:layout_constraintTop_toBottomOf="@+id/helpTitle2" />
+
+    <TextView
+        android:id="@+id/text1099"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/_10_99_balls"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/text09"
+        app:layout_constraintTop_toBottomOf="@+id/text09" />
+
+    <TextView
+        android:id="@+id/text100999"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/_100_999_balls"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/text1099"
+        app:layout_constraintTop_toBottomOf="@+id/text1099" />
+
+    <TextView
+        android:id="@+id/text10009999"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/_1000_9999_balls"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/text100999"
+        app:layout_constraintTop_toBottomOf="@+id/text100999" />
+
+    <TextView
+        android:id="@+id/text10000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/_10000_balls"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/text10009999"
+        app:layout_constraintTop_toBottomOf="@+id/text10009999" />
+
+    <TextView
+        android:id="@+id/text1x"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="@string/x1"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/text09"
+        app:layout_constraintTop_toTopOf="@+id/text09" />
+
+    <TextView
+        android:id="@+id/text5x"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="@string/x5"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/text1099"
+        app:layout_constraintTop_toTopOf="@+id/text1099" />
+
+    <TextView
+        android:id="@+id/text10x"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="@string/x10"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/text100999"
+        app:layout_constraintTop_toTopOf="@+id/text100999" />
+
+    <TextView
+        android:id="@+id/text50x"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="@string/x50"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/text10009999"
+        app:layout_constraintTop_toTopOf="@+id/text10009999" />
+
+    <TextView
+        android:id="@+id/text100x"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="@string/x100"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/text10000"
+        app:layout_constraintTop_toTopOf="@+id/text10000" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

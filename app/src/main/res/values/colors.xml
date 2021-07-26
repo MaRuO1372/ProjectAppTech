@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="easy">#97EE97</color>
+    <color name="easyTransparent">#AA97EE97</color>
+    <color name="easyDark">#67BE67</color>
+    <color name="expert">#EEEE97</color>
+    <color name="expertTransparent">#AAEEEE97</color>
+    <color name="expertDark">#BEBE67</color>
+    <color name="master">#EE9797</color>
+    <color name="masterTransparent">#AAEE9797</color>
+    <color name="masterDark">#BE6767</color>
+    <color name="white">#ffffff</color>
+    <color name="shadow">#202020</color>
+    <color name="fieldSquare">#303030</color>
+</resources>

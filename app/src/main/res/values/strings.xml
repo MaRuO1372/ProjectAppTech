@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Golden Slick</string>
+    <string name="pyc_soft_logo">PYC soft logo</string>
+    <string name="medium_mode">PLAY</string>
+    <string name="hard_mode">PLAY</string>
+    <string name="easy_mode">PLAY</string>
+    <string name="info_label">info</string>
+    <string name="ball">ball</string>
+    <string name="master_label">Master</string>
+    <string name="expert_label">Expert</string>
+    <string name="easy_label">Easy</string>
+    <string name="stats_title">%1$s Statistics</string>
+    <string name="this_week">This week</string>
+    <string name="this_month">This month</string>
+    <string name="this_year">This year</string>
+    <string name="menu">&lt;</string>
+    <string name="help">HELP</string>
+    <string name="settings">Settings</string>
+    <string name="match_balls">Match Balls</string>
+    <string name="help_header">Quick Tutorial</string>
+    <string name="help_title1">Swap balls to form line of 3 or more</string>
+    <string name="help_title2">Collect balls to increase score multiplier</string>
+    <string name="_0_9_balls">0–9 balls</string>
+    <string name="_10_99_balls">10–99 balls</string>
+    <string name="_100_999_balls">100–999 balls</string>
+    <string name="_1000_9999_balls">1000–9999 balls</string>
+    <string name="_10000_balls">10000+ balls</string>
+    <string name="x1">x1</string>
+    <string name="x5">x5</string>
+    <string name="x10">x10</string>
+    <string name="x50">x50</string>
+    <string name="x100">x100</string>
+</resources>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "901482467239",
+    "project_id": "newshablon",
+    "storage_bucket": "newshablon.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:901482467239:android:d883830f86bb109a413082",
+        "android_client_info": {
+          "package_name": "com.titaniu.projectapptech"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "901482467239-kep9ajkdd2rqjhns4idqimtfmrkmgjif.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0MYOS-4v55VX-xvJh0KFrWX1EYyb45iY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "901482467239-kep9ajkdd2rqjhns4idqimtfmrkmgjif.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
